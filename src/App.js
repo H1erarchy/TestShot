@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import renderer from 'react-test-renderer'
+
 
 function App() {
   return (
@@ -15,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <h2>Learn React</h2>
         </a>
       </header>
     </div>
